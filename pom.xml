@@ -282,6 +282,7 @@
         <module>process-controller</module>
         <module>protocol</module>
         <module>remoting</module>
+        <module>security</module>
         <module>server</module>
         <module>subsystem-test</module>
         <module>threads</module>
@@ -5941,7 +5942,6 @@
                 <module>pojo</module>
                 <module>remoting-test</module>
                 <module>sar</module>
-                <module>security</module>
                 <module>spec-api</module>
                 <module>web</module>
                 <module>webservices</module>
