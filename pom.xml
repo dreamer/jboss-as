@@ -265,6 +265,7 @@
     <modules>
         <module>build</module>
         <module>build-config</module>
+        <module>clustering</module>
         <module>controller</module>
         <module>controller-client</module>
         <module>deployment-repository</module>
@@ -5918,7 +5919,6 @@
                 <module>client/ejb</module>
                 <module>client/jms</module>
                 <module>client/shade</module>
-                <module>clustering</module>
                 <module>cmp</module>
                 <module>configadmin</module>
                 <module>connector</module>
