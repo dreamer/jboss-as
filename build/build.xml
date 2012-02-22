@@ -360,6 +360,10 @@
             <maven-resource group="org.jboss.xnio" artifact="xnio-nio"/>
         </module-def>
 
+        <module-def name="org.jgroups">
+            <maven-resource group="org.jgroups" artifact="jgroups"/>
+        </module-def>
+
         <module-def name="org.omg.api" />
 
     </target>
@@ -1122,10 +1126,6 @@
             <maven-resource group="org.jboss.jbossts" artifact="jbossxts"/>
             <maven-resource group="org.jboss.jbossts" artifact="jbossxts-api"/>
             <maven-resource group="org.jboss.jbossts" artifact="jbosstxbridge"/>
-        </module-def>
-
-        <module-def name="org.jgroups">
-            <maven-resource group="org.jgroups" artifact="jgroups"/>
         </module-def>
 
         <module-def name="org.joda.time">

@@ -233,6 +233,11 @@
             <groupId>org.jboss.msc</groupId>
             <artifactId>jboss-msc</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.jgroups</groupId>
+            <artifactId>jgroups</artifactId>
+        </dependency>
     </dependencies>
 
     <profiles>
@@ -1571,11 +1576,6 @@
                 <dependency>
                     <groupId>org.jdom</groupId>
                     <artifactId>jdom</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jgroups</groupId>
-                    <artifactId>jgroups</artifactId>
                 </dependency>
 
                 <dependency>
