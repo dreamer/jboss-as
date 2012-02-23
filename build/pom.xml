@@ -171,6 +171,11 @@
 
         <dependency>
             <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-naming</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
             <artifactId>jboss-as-security</artifactId>
         </dependency>
 
@@ -245,8 +250,28 @@
         </dependency>
 
         <dependency>
-            <groupId>org.jboss.as</groupId>
-            <artifactId>jboss-as-naming</artifactId>
+            <groupId>org.jboss.security</groupId>
+            <artifactId>jboss-negotiation-common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.security</groupId>
+            <artifactId>jboss-negotiation-extras</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.security</groupId>
+            <artifactId>jboss-negotiation-net</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.security</groupId>
+            <artifactId>jboss-negotiation-ntlm</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.security</groupId>
+            <artifactId>jboss-negotiation-spnego</artifactId>
         </dependency>
 
         <dependency>
@@ -1307,30 +1332,6 @@
                     <artifactId>jboss-seam-int-jbossas</artifactId>
                 </dependency>
 
-                <dependency>
-                    <groupId>org.jboss.security</groupId>
-                    <artifactId>jboss-negotiation-common</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.security</groupId>
-                    <artifactId>jboss-negotiation-extras</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.security</groupId>
-                    <artifactId>jboss-negotiation-net</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.security</groupId>
-                    <artifactId>jboss-negotiation-ntlm</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.security</groupId>
-                    <artifactId>jboss-negotiation-spnego</artifactId>
-                </dependency>
 
                 <dependency>
                     <groupId>org.jboss.security</groupId>

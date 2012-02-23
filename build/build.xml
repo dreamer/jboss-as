@@ -360,6 +360,14 @@
             <maven-resource group="org.jboss.sasl" artifact="jboss-sasl" />
         </module-def>
 
+        <module-def name="org.jboss.security.negotiation">
+            <maven-resource group="org.jboss.security" artifact="jboss-negotiation-common"/>
+            <maven-resource group="org.jboss.security" artifact="jboss-negotiation-extras"/>
+            <maven-resource group="org.jboss.security" artifact="jboss-negotiation-net"/>
+            <maven-resource group="org.jboss.security" artifact="jboss-negotiation-ntlm"/>
+            <maven-resource group="org.jboss.security" artifact="jboss-negotiation-spnego"/>
+        </module-def>
+
         <module-def name="org.jboss.staxmapper">
             <maven-resource group="org.jboss" artifact="staxmapper"/>
         </module-def>
@@ -1027,14 +1035,6 @@
 
         <module-def name="org.jboss.resteasy.resteasy-yaml-provider">
             <maven-resource group="org.jboss.resteasy" artifact="resteasy-yaml-provider" jandex="true"/>
-        </module-def>
-
-        <module-def name="org.jboss.security.negotiation">
-            <maven-resource group="org.jboss.security" artifact="jboss-negotiation-common"/>
-        	<maven-resource group="org.jboss.security" artifact="jboss-negotiation-extras"/>
-            <maven-resource group="org.jboss.security" artifact="jboss-negotiation-net"/>
-        	<maven-resource group="org.jboss.security" artifact="jboss-negotiation-ntlm"/>
-        	<maven-resource group="org.jboss.security" artifact="jboss-negotiation-spnego"/>
         </module-def>
 
         <module-def name="org.jboss.security.xacml">
