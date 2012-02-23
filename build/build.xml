@@ -404,6 +404,7 @@
             <maven-resource group="org.picketbox" artifact="picketbox-commons"/>
         </module-def>
 
+        <module-def name="sun.jdk"/>
     </target>
 
     <target name="modules" depends="modules-minimalistic">
@@ -1192,8 +1193,6 @@
         <module-def name="nu.xom">
             <maven-resource group="xom" artifact="xom"/>
         </module-def>
-
-        <module-def name="sun.jdk"/>
 
     </target>
 
