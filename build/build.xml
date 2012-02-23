@@ -398,6 +398,12 @@
 
         <module-def name="org.omg.api" />
 
+        <module-def name="org.picketbox">
+            <maven-resource group="org.picketbox" artifact="picketbox"/>
+            <maven-resource group="org.picketbox" artifact="picketbox-infinispan"/>
+            <maven-resource group="org.picketbox" artifact="picketbox-commons"/>
+        </module-def>
+
     </target>
 
     <target name="modules" depends="modules-minimalistic">
@@ -1145,12 +1151,6 @@
             <maven-resource group="org.picketlink" artifact="picketlink-bindings" jandex="true"/>
             <maven-resource group="org.picketlink" artifact="picketlink-bindings-jboss"/>
             <maven-resource group="org.picketlink" artifact="picketlink-trust-jbossws"/>
-        </module-def>
-
-        <module-def name="org.picketbox">
-            <maven-resource group="org.picketbox" artifact="picketbox"/>
-            <maven-resource group="org.picketbox" artifact="picketbox-infinispan"/>
-            <maven-resource group="org.picketbox" artifact="picketbox-commons"/>
         </module-def>
 
         <module-def name="org.python.jython.standalone">
