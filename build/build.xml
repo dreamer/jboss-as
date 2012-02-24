@@ -185,6 +185,10 @@
             <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-jgroups"/>
         </module-def>
 
+        <module-def name="org.jboss.as.connector">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-connector"/>
+        </module-def>
+
         <module-def name="org.jboss.as.controller">
             <maven-resource group="org.jboss.as" artifact="jboss-as-controller"/>
         </module-def>
@@ -805,10 +809,6 @@
 
         <module-def name="org.jboss.as.cmp">
             <maven-resource group="org.jboss.as" artifact="jboss-as-cmp"/>
-        </module-def>
-
-        <module-def name="org.jboss.as.connector">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-connector"/>
         </module-def>
 
         <module-def name="org.jboss.as.deployment-scanner">
