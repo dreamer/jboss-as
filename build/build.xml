@@ -173,6 +173,10 @@
             <maven-resource group="org.hibernate" artifact="hibernate-validator"/>
         </module-def>
 
+        <module-def name="org.jboss.as.clustering.api">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-api"/>
+        </module-def>
+
         <module-def name="org.jboss.as.clustering.common">
             <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-common"/>
         </module-def>
@@ -183,6 +187,10 @@
 
         <module-def name="org.jboss.as.clustering.jgroups">
             <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-jgroups"/>
+        </module-def>
+
+        <module-def name="org.jboss.as.clustering.web.spi">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-web-spi"/>
         </module-def>
 
         <module-def name="org.jboss.as.connector">
@@ -269,6 +277,12 @@
 
         <module-def name="org.jboss.as.transactions">
             <maven-resource group="org.jboss.as" artifact="jboss-as-transactions"/>
+        </module-def>
+
+        <module-def name="org.jboss.as.web">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-web"/>
+            <!-- <maven-resource group="org.jboss.web" artifact="jasper-jdt"/> -->
+            <maven-resource group="org.jboss.web" artifact="jbossweb"/>
         </module-def>
 
         <module-def name="org.jboss.com.sun.httpserver">
@@ -771,10 +785,6 @@
             <maven-resource group="org.jboss.as" artifact="jboss-as-cli"/>
         </module-def>
 
-        <module-def name="org.jboss.as.clustering.api">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-api"/>
-        </module-def>
-
         <module-def name="org.jboss.as.clustering.ejb3.infinispan">
             <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-ejb3-infinispan"/>
         </module-def>
@@ -797,10 +807,6 @@
 
         <module-def name="org.jboss.as.clustering.web.infinispan">
             <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-web-infinispan"/>
-        </module-def>
-
-        <module-def name="org.jboss.as.clustering.web.spi">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-web-spi"/>
         </module-def>
 
         <module-def name="org.jboss.as.configadmin">
@@ -906,13 +912,6 @@
 
         <module-def name="org.jboss.as.sar">
             <maven-resource group="org.jboss.as" artifact="jboss-as-sar"/>
-        </module-def>
-
-        <module-def name="org.jboss.as.web">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-web"/>
-            <maven-resource group="org.jboss.web" artifact="jasper-jdt"/>
-            <maven-resource group="org.jboss.web" artifact="jbossweb"/>
-            <extract-native-jar group="org.jboss.as" artifact="jbossweb-native"/>
         </module-def>
 
         <module-def name="org.jboss.as.webservices">

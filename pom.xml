@@ -289,6 +289,7 @@
         <module>subsystem-test</module>
         <module>threads</module>
         <module>transactions</module>
+        <module>web</module>
     </modules>
 
     <build>
@@ -5943,7 +5944,6 @@
                 <module>remoting-test</module>
                 <module>sar</module>
                 <module>spec-api</module>
-                <module>web</module>
                 <module>webservices</module>
                 <module>weld</module>
                 <!--

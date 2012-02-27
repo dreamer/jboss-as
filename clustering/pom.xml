@@ -38,16 +38,16 @@
     <name>JBoss Application Server: Clustering Subsystem</name>
     
     <modules>
-        <!-- <module>api</module> -->
+        <module>api</module>
         <module>common</module>
         <!-- <module>impl</module> -->
         <module>jgroups</module>
         <module>infinispan</module>
         <!-- <module>registry</module>
         <module>service</module>
-        <module>singleton</module>
+        <module>singleton</module>-->
         <module>web-spi</module>
-        <module>web-infinispan</module>
+        <!--<module>web-infinispan</module>
         <module>ejb3-infinispan</module>-->
     </modules>
 
