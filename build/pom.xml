@@ -84,6 +84,31 @@
     <dependencies>
 
         <dependency>
+            <groupId>com.sun.faces</groupId>
+            <artifactId>jsf-impl</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.enterprise</groupId>
+            <artifactId>cdi-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate.javax.persistence</groupId>
+            <artifactId>hibernate-jpa-2.0-api</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.infinispan</groupId>
             <artifactId>infinispan-cachestore-jdbc</artifactId>
         </dependency>
@@ -106,6 +131,11 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jdt</groupId>
+            <artifactId>core</artifactId>
         </dependency>
 
         <!-- TODO: why do we need jandex in minimal? -->
@@ -152,6 +182,16 @@
         <dependency>
             <groupId>org.jboss.as</groupId>
             <artifactId>jboss-as-connector</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-deployment-repository</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-deployment-scanner</artifactId>
         </dependency>
 
         <dependency>
@@ -310,6 +350,76 @@
         </dependency>
 
         <dependency>
+            <groupId>org.jboss.spec.javax.security.auth.message</groupId>
+            <artifactId>jboss-jaspi-api_1.0_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.servlet.jsp</groupId>
+            <artifactId>jboss-jsp-api_2.2_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.servlet.jstl</groupId>
+            <artifactId>jboss-jstl-api_1.2_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.transaction</groupId>
+            <artifactId>jboss-transaction-api_1.1_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.jms</groupId>
+            <artifactId>jboss-jms-api_1.1_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.annotation</groupId>
+            <artifactId>jboss-annotations-api_1.1_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.xml.rpc</groupId>
+            <artifactId>jboss-jaxrpc-api_1.1_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.ejb</groupId>
+            <artifactId>jboss-ejb-api_3.1_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.el</groupId>
+            <artifactId>jboss-el-api_2.2_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.xml.bind</groupId>
+            <artifactId>jboss-jaxb-api_2.2_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.enterprise.deploy</groupId>
+            <artifactId>jboss-jad-api_1.2_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.xml.soap</groupId>
+            <artifactId>jboss-saaj-api_1.3_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.faces</groupId>
+            <artifactId>jboss-jsf-api_2.1_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.interceptor</groupId>
+            <artifactId>jboss-interceptors-api_1.1_spec</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.jgroups</groupId>
             <artifactId>jgroups</artifactId>
         </dependency>
@@ -327,6 +437,41 @@
         <dependency>
             <groupId>org.picketbox</groupId>
             <artifactId>picketbox-infinispan</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.slf4j</groupId>
+            <artifactId>slf4j-jboss-logmanager</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>xalan</groupId>
+            <artifactId>serializer</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>xalan</groupId>
+            <artifactId>xalan</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
         </dependency>
     </dependencies>
 
@@ -361,11 +506,6 @@
                 <dependency>
                     <groupId>com.google.guava</groupId>
                     <artifactId>guava</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>com.sun.faces</groupId>
-                    <artifactId>jsf-impl</artifactId>
                 </dependency>
 
                 <dependency>
@@ -441,11 +581,6 @@
                 </dependency>
 
                 <dependency>
-                    <groupId>javax.enterprise</groupId>
-                    <artifactId>cdi-api</artifactId>
-                </dependency>
-
-                <dependency>
                     <groupId>javax.faces</groupId>
                     <artifactId>jsf-api</artifactId>
                 </dependency>
@@ -456,18 +591,8 @@
                 </dependency>
 
                 <dependency>
-                    <groupId>javax.inject</groupId>
-                    <artifactId>javax.inject</artifactId>
-                </dependency>
-
-                <dependency>
                     <groupId>javax.jws</groupId>
                     <artifactId>jsr181-api</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>javax.mail</groupId>
-                    <artifactId>mail</artifactId>
                 </dependency>
 
                 <dependency>
@@ -488,11 +613,6 @@
                 <dependency>
                     <groupId>jline</groupId>
                     <artifactId>jline</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>joda-time</groupId>
-                    <artifactId>joda-time</artifactId>
                 </dependency>
 
                 <dependency>
@@ -791,11 +911,6 @@
                 </dependency>
 
                 <dependency>
-                    <groupId>org.hibernate.javax.persistence</groupId>
-                    <artifactId>hibernate-jpa-2.0-api</artifactId>
-                </dependency>
-
-                <dependency>
                     <groupId>org.hornetq</groupId>
                     <artifactId>hornetq-core</artifactId>
                 </dependency>
@@ -910,16 +1025,6 @@
                 <dependency>
                     <groupId>org.jboss.as</groupId>
                     <artifactId>jboss-as-domain-management</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-deployment-repository</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-deployment-scanner</artifactId>
                 </dependency>
 
                 <dependency>
@@ -1369,46 +1474,6 @@
                 </dependency>
 
                 <dependency>
-                    <groupId>org.jboss.slf4j</groupId>
-                    <artifactId>slf4j-jboss-logmanager</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.annotation</groupId>
-                    <artifactId>jboss-annotations-api_1.1_spec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.ejb</groupId>
-                    <artifactId>jboss-ejb-api_3.1_spec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.el</groupId>
-                    <artifactId>jboss-el-api_2.2_spec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.enterprise.deploy</groupId>
-                    <artifactId>jboss-jad-api_1.2_spec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.faces</groupId>
-                    <artifactId>jboss-jsf-api_2.1_spec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.interceptor</groupId>
-                    <artifactId>jboss-interceptors-api_1.1_spec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.jms</groupId>
-                    <artifactId>jboss-jms-api_1.1_spec</artifactId>
-                </dependency>
-
-                <dependency>
                     <groupId>org.jboss.spec.javax.management.j2ee</groupId>
                     <artifactId>jboss-j2eemgmt-api_1.1_spec</artifactId>
                 </dependency>
@@ -1424,48 +1489,13 @@
                 </dependency>
 
                 <dependency>
-                    <groupId>org.jboss.spec.javax.security.auth.message</groupId>
-                    <artifactId>jboss-jaspi-api_1.0_spec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.servlet.jsp</groupId>
-                    <artifactId>jboss-jsp-api_2.2_spec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.servlet.jstl</groupId>
-                    <artifactId>jboss-jstl-api_1.2_spec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.transaction</groupId>
-                    <artifactId>jboss-transaction-api_1.1_spec</artifactId>
-                </dependency>
-
-                <dependency>
                     <groupId>org.jboss.spec.javax.ws.rs</groupId>
                     <artifactId>jboss-jaxrs-api_1.1_spec</artifactId>
                 </dependency>
 
                 <dependency>
-                    <groupId>org.jboss.spec.javax.xml.bind</groupId>
-                    <artifactId>jboss-jaxb-api_2.2_spec</artifactId>
-                </dependency>
-
-                <dependency>
                     <groupId>org.jboss.spec.javax.xml.registry</groupId>
                     <artifactId>jboss-jaxr-api_1.0_spec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.xml.rpc</groupId>
-                    <artifactId>jboss-jaxrpc-api_1.1_spec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.spec.javax.xml.soap</groupId>
-                    <artifactId>jboss-saaj-api_1.3_spec</artifactId>
                 </dependency>
 
                 <dependency>
@@ -1481,11 +1511,6 @@
                 <dependency>
                     <groupId>org.jboss.threads</groupId>
                     <artifactId>jboss-threads</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.web</groupId>
-                    <artifactId>jasper-jdt</artifactId>
                 </dependency>
 
                 <dependency>
@@ -1641,16 +1666,6 @@
 
                 <dependency>
                     <groupId>org.slf4j</groupId>
-                    <artifactId>jcl-over-slf4j</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-api</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.slf4j</groupId>
                     <artifactId>slf4j-ext</artifactId>
                 </dependency>
 
@@ -1667,21 +1682,6 @@
                 <dependency>
                     <groupId>wsdl4j</groupId>
                     <artifactId>wsdl4j</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>xalan</groupId>
-                    <artifactId>serializer</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>xalan</groupId>
-                    <artifactId>xalan</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>xerces</groupId>
-                    <artifactId>xercesImpl</artifactId>
                 </dependency>
 
                 <dependency>

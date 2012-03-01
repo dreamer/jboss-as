@@ -270,6 +270,7 @@
         <module>controller</module>
         <module>controller-client</module>
         <module>deployment-repository</module>
+        <module>deployment-scanner</module>
         <module>domain-http</module>
         <module>domain-management</module>
         <module>ee</module>
@@ -5924,7 +5925,6 @@
                 <module>cmp</module>
                 <module>configadmin</module>
                 <module>demos</module>
-                <module>deployment-scanner</module>
                 <module>dist</module>
                 <module>ejb3</module>
                 <module>host-controller</module>
