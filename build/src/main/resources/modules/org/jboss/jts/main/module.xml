@@ -40,7 +40,7 @@
         <module name="javax.api"/>
         <module name="javax.transaction.api"/>
         <module name="javax.resource.api"/>
-        <module name="org.hornetq"/>
+        <module name="org.hornetq" optional="true"/>
         <module name="org.jacorb" optional="true"/>
     </dependencies>
 </module>

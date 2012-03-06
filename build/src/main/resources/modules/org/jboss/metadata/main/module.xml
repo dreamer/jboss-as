@@ -36,12 +36,12 @@
         <module name="javax.api"/>
         <module name="javax.ejb.api"/>
         <module name="javax.interceptor.api"/>
-        <module name="javax.jws.api"/>
+        <module name="javax.jws.api" optional="true"/>
         <module name="javax.persistence.api"/>
         <module name="javax.servlet.api"/>
         <module name="javax.servlet.jsp.api"/>
         <module name="javax.xml.bind.api"/>
-        <module name="javax.xml.ws.api"/>
+        <module name="javax.xml.ws.api" optional="true"/>
         <module name="org.jboss.ejb3"/>
         <module name="org.jboss.staxmapper"/>
         <module name="org.jboss.logging"/>
