@@ -275,8 +275,10 @@
         <module>domain-management</module>
         <module>ee</module>
         <module>ee-deployment</module>
+        <module>ejb3</module>
         <module>embedded</module>
         <module>jmx</module>
+        <module>jpa</module>
         <module>management-client-content</module>
         <module>logging</module>
         <module>naming</module>
@@ -291,6 +293,7 @@
         <module>threads</module>
         <module>transactions</module>
         <module>web</module>
+        <module>weld</module>
     </modules>
 
     <build>
@@ -5926,7 +5929,6 @@
                 <module>configadmin</module>
                 <module>demos</module>
                 <module>dist</module>
-                <module>ejb3</module>
                 <module>host-controller</module>
                 <!--
                 <module>jacorb</module>
@@ -5934,7 +5936,6 @@
                 <module>jaxr</module>
                 <module>jaxrs</module>
                 <module>jdr</module>
-                <module>jpa</module>
                 <module>jsr77</module>
                 <module>mail</module>
                 <module>messaging</module>
@@ -5945,7 +5946,6 @@
                 <module>sar</module>
                 <module>spec-api</module>
                 <module>webservices</module>
-                <module>weld</module>
                 <!--
                 <module>xts</module>
                 -->

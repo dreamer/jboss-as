@@ -181,6 +181,11 @@
 
         <dependency>
             <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-clustering-registry</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
             <artifactId>jboss-as-connector</artifactId>
         </dependency>
 
@@ -211,7 +216,27 @@
 
         <dependency>
             <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-ejb3</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
             <artifactId>jboss-as-jmx</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-jpa</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-jpa-spi</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-jpa-util</artifactId>
         </dependency>
 
         <dependency>
@@ -245,6 +270,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-weld</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.jboss.ejb3</groupId>
             <artifactId>jboss-ejb3-ext-api</artifactId>
         </dependency>
@@ -252,6 +282,21 @@
         <dependency>
             <groupId>org.jboss.invocation</groupId>
             <artifactId>jboss-invocation</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss</groupId>
+            <artifactId>jboss-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss</groupId>
+            <artifactId>jboss-iiop-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss</groupId>
+            <artifactId>jboss-vfs</artifactId>
         </dependency>
 
         <dependency>
@@ -420,6 +465,21 @@
         </dependency>
 
         <dependency>
+            <groupId>org.jboss.weld</groupId>
+            <artifactId>weld-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.weld</groupId>
+            <artifactId>weld-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.weld</groupId>
+            <artifactId>weld-spi</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.jgroups</groupId>
             <artifactId>jgroups</artifactId>
         </dependency>
@@ -442,6 +502,21 @@
         <dependency>
             <groupId>org.jboss.slf4j</groupId>
             <artifactId>slf4j-jboss-logmanager</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss</groupId>
+            <artifactId>jboss-transaction-spi</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.interceptor</groupId>
+            <artifactId>jboss-interceptor-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.interceptor</groupId>
+            <artifactId>jboss-interceptor-spi</artifactId>
         </dependency>
 
         <dependency>
@@ -931,21 +1006,6 @@
                 </dependency>
 
                 <dependency>
-                    <groupId>org.jboss</groupId>
-                    <artifactId>jboss-common-core</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss</groupId>
-                    <artifactId>jboss-iiop-client</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss</groupId>
-                    <artifactId>jboss-vfs</artifactId>
-                </dependency>
-
-                <dependency>
                     <groupId>org.jboss.as</groupId>
                     <artifactId>jboss-as-appclient</artifactId>
                 </dependency>
@@ -969,11 +1029,6 @@
                 <dependency>
                     <groupId>org.jboss.as</groupId>
                     <artifactId>jboss-as-clustering-impl</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-clustering-registry</artifactId>
                 </dependency>
 
                 <dependency>
@@ -1025,11 +1080,6 @@
                 <dependency>
                     <groupId>org.jboss.as</groupId>
                     <artifactId>jboss-as-domain-management</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-ejb3</artifactId>
                 </dependency>
 
                 <dependency>
@@ -1141,11 +1191,6 @@
 
                 <dependency>
                     <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-weld</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
                     <artifactId>jboss-as-webservices-server-integration</artifactId>
                 </dependency>
 
@@ -1173,11 +1218,6 @@
 
                 <dependency>
                     <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-jpa</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
                     <artifactId>jboss-as-jpa-hibernate3</artifactId>
                 </dependency>
 
@@ -1194,31 +1234,6 @@
                 <dependency>
                     <groupId>org.jboss.as</groupId>
                     <artifactId>jboss-as-jpa-openjpa</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-jpa-spi</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-jpa-util</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss</groupId>
-                    <artifactId>jboss-transaction-spi</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.interceptor</groupId>
-                    <artifactId>jboss-interceptor-core</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.interceptor</groupId>
-                    <artifactId>jboss-interceptor-spi</artifactId>
                 </dependency>
 
                 <dependency>
@@ -1516,21 +1531,6 @@
                 <dependency>
                     <groupId>org.jboss.web</groupId>
                     <artifactId>jbossweb</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.weld</groupId>
-                    <artifactId>weld-api</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.weld</groupId>
-                    <artifactId>weld-core</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.weld</groupId>
-                    <artifactId>weld-spi</artifactId>
                 </dependency>
 
                 <dependency>
