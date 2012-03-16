@@ -382,7 +382,7 @@
                                             <exclude>jacorb:jacorb</exclude>
                                             <exclude>javassist:javassist</exclude>
                                             <!-- <exclude>javax.persistence:persistence-api</exclude> Needs investigation -->
-                                            <!-- <exclude>javax.servlet:servlet-api</exclude> Needs investigation -->
+                                            <exclude>javax.servlet:servlet-api</exclude>
                                             <exclude>javax.transaction:jta</exclude>
                                             <exclude>javax.xml:jaxrpc-api</exclude>
                                             <exclude>javax.xml.soap:saaj-api</exclude>
