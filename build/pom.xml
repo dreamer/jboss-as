@@ -82,6 +82,20 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>ch.qos.cal10n</groupId>
+            <artifactId>cal10n-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>com.sun.faces</groupId>
@@ -138,6 +152,11 @@
             <artifactId>core</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+        </dependency>
+
         <!-- TODO: why do we need jandex in minimal? -->
         <dependency>
             <groupId>org.jboss</groupId>
@@ -152,6 +171,11 @@
         <dependency>
             <groupId>org.jboss</groupId>
             <artifactId>staxmapper</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss</groupId>
+            <artifactId>jboss-ejb-client</artifactId>
         </dependency>
 
         <dependency>
@@ -277,6 +301,16 @@
         <dependency>
             <groupId>org.jboss.ejb3</groupId>
             <artifactId>jboss-ejb3-ext-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.classfilewriter</groupId>
+            <artifactId>jboss-classfilewriter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.com.sun.httpserver</groupId>
+            <artifactId>httpserver</artifactId>
         </dependency>
 
         <dependency>
@@ -535,6 +569,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-ext</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>xalan</groupId>
             <artifactId>serializer</artifactId>
         </dependency>
@@ -569,18 +608,8 @@
                 </dependency>
 
                 <dependency>
-                    <groupId>ch.qos.cal10n</groupId>
-                    <artifactId>cal10n-api</artifactId>
-                </dependency>
-
-                <dependency>
                     <groupId>com.h2database</groupId>
                     <artifactId>h2</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>com.google.guava</groupId>
-                    <artifactId>guava</artifactId>
                 </dependency>
 
                 <dependency>
@@ -611,11 +640,6 @@
                 <dependency>
                     <groupId>commons-codec</groupId>
                     <artifactId>commons-codec</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>commons-collections</groupId>
-                    <artifactId>commons-collections</artifactId>
                 </dependency>
 
                 <dependency>
@@ -1001,11 +1025,6 @@
                 </dependency>
 
                 <dependency>
-                    <groupId>org.javassist</groupId>
-                    <artifactId>javassist</artifactId>
-                </dependency>
-
-                <dependency>
                     <groupId>org.jboss.as</groupId>
                     <artifactId>jboss-as-appclient</artifactId>
                 </dependency>
@@ -1200,21 +1219,6 @@
                     <artifactId>jboss-as-xts</artifactId>
                 </dependency>
                 -->
-
-                <dependency>
-                    <groupId>org.jboss.classfilewriter</groupId>
-                    <artifactId>jboss-classfilewriter</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.com.sun.httpserver</groupId>
-                    <artifactId>httpserver</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss</groupId>
-                    <artifactId>jboss-ejb-client</artifactId>
-                </dependency>
 
                 <dependency>
                     <groupId>org.jboss.as</groupId>
@@ -1662,11 +1666,6 @@
                 <dependency>
                     <groupId>org.python</groupId>
                     <artifactId>jython-standalone</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-ext</artifactId>
                 </dependency>
 
                 <dependency>

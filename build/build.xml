@@ -121,6 +121,14 @@
           ~ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
           -->
 
+        <module-def name="ch.qos.cal10n">
+            <maven-resource group="ch.qos.cal10n" artifact="cal10n-api"/>
+        </module-def>
+
+        <module-def name="com.google.guava">
+            <maven-resource group="com.google.guava" artifact="guava" />
+        </module-def>
+
         <module-def name="com.sun.jsf-impl">
             <maven-resource group="com.sun.faces" artifact="jsf-impl"/>
         </module-def>
@@ -239,6 +247,10 @@
 
         <module-def name="javaee.api"/>
 
+        <module-def name="org.apache.commons.collections">
+            <maven-resource group="commons-collections" artifact="commons-collections" />
+        </module-def>
+
         <module-def name="org.apache.commons.logging"/>
 
         <module-def name="org.apache.log4j">
@@ -256,6 +268,14 @@
 
         <module-def name="org.hibernate.validator">
             <maven-resource group="org.hibernate" artifact="hibernate-validator"/>
+        </module-def>
+
+        <module-def name="org.javassist">
+            <maven-resource group="org.javassist" artifact="javassist"/>
+        </module-def>
+
+        <module-def name="org.jboss.ejb-client">
+            <maven-resource group="org.jboss" artifact="jboss-ejb-client"/>
         </module-def>
 
         <module-def name="org.jboss.ironjacamar.api">
@@ -417,6 +437,10 @@
 
         <module-def name="org.jboss.com.sun.httpserver">
             <maven-resource group="org.jboss.com.sun.httpserver" artifact="httpserver"/>
+        </module-def>
+
+        <module-def name="org.jboss.classfilewriter">
+            <maven-resource group="org.jboss.classfilewriter" artifact="jboss-classfilewriter"/>
         </module-def>
 
         <module-def name="org.jboss.common-core">
@@ -592,6 +616,10 @@
             <maven-resource group="org.jboss.slf4j" artifact="slf4j-jboss-logmanager"/>
         </module-def>
 
+        <module-def name="org.slf4j.ext">
+            <maven-resource group="org.slf4j" artifact="slf4j-ext"/>
+        </module-def>
+
         <module-def name="sun.jdk"/>
     </target>
 
@@ -610,14 +638,6 @@
 
         <module-def name="asm.asm">
             <maven-resource group="asm" artifact="asm" />
-        </module-def>
-
-        <module-def name="ch.qos.cal10n">
-            <maven-resource group="ch.qos.cal10n" artifact="cal10n-api"/>
-        </module-def>
-
-        <module-def name="com.google.guava">
-            <maven-resource group="com.google.guava" artifact="guava" />
         </module-def>
 
         <module-def name="com.h2database.h2">
@@ -701,10 +721,6 @@
 
         <module-def name="org.apache.commons.codec">
             <maven-resource group="commons-codec" artifact="commons-codec"/>
-        </module-def>
-
-        <module-def name="org.apache.commons.collections">
-            <maven-resource group="commons-collections" artifact="commons-collections" />
         </module-def>
 
         <module-def name="org.apache.commons.io">
@@ -843,10 +859,6 @@
             <maven-resource group="org.jacorb" artifact="jacorb"/>
         </module-def>
         -->
-
-        <module-def name="org.javassist">
-            <maven-resource group="org.javassist" artifact="javassist"/>
-        </module-def>
 
         <module-def name="org.jaxen">
             <maven-resource group="jaxen" artifact="jaxen"/>
@@ -990,14 +1002,6 @@
 
         <module-def name="org.jboss.as.xts">
             <maven-resource group="org.jboss.as" artifact="jboss-as-xts"/>
-        </module-def>
-
-        <module-def name="org.jboss.classfilewriter">
-            <maven-resource group="org.jboss.classfilewriter" artifact="jboss-classfilewriter"/>
-        </module-def>
-
-        <module-def name="org.jboss.ejb-client">
-            <maven-resource group="org.jboss" artifact="jboss-ejb-client"/>
         </module-def>
 
         <module-def name="org.jboss.integration.ext-content">
@@ -1172,10 +1176,6 @@
 
         <module-def name="org.scannotation.scannotation">
             <maven-resource group="org.scannotation" artifact="scannotation"/>
-        </module-def>
-
-        <module-def name="org.slf4j.ext">
-            <maven-resource group="org.slf4j" artifact="slf4j-ext"/>
         </module-def>
 
         <module-def name="org.w3c.css.sac">
