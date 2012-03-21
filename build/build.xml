@@ -319,6 +319,26 @@
             <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-registry"/>
         </module-def>
 
+        <module-def name="org.jboss.as.clustering.ejb3.infinispan">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-ejb3-infinispan"/>
+        </module-def>
+
+        <module-def name="org.jboss.as.clustering.impl">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-impl"/>
+        </module-def>
+
+        <module-def name="org.jboss.as.clustering.service">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-service"/>
+        </module-def>
+
+        <module-def name="org.jboss.as.clustering.singleton">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-singleton"/>
+        </module-def>
+
+        <module-def name="org.jboss.as.clustering.web.infinispan">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-web-infinispan"/>
+        </module-def>
+
         <module-def name="org.jboss.as.connector">
             <maven-resource group="org.jboss.as" artifact="jboss-as-connector"/>
         </module-def>
@@ -880,26 +900,6 @@
 
         <module-def name="org.jboss.as.cli">
             <maven-resource group="org.jboss.as" artifact="jboss-as-cli"/>
-        </module-def>
-
-        <module-def name="org.jboss.as.clustering.ejb3.infinispan">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-ejb3-infinispan"/>
-        </module-def>
-
-        <module-def name="org.jboss.as.clustering.impl">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-impl"/>
-        </module-def>
-
-        <module-def name="org.jboss.as.clustering.service">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-service"/>
-        </module-def>
-
-        <module-def name="org.jboss.as.clustering.singleton">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-singleton"/>
-        </module-def>
-
-        <module-def name="org.jboss.as.clustering.web.infinispan">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-clustering-web-infinispan"/>
         </module-def>
 
         <module-def name="org.jboss.as.configadmin">

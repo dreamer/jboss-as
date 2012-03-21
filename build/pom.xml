@@ -210,6 +210,31 @@
 
         <dependency>
             <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-clustering-ejb3-infinispan</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-clustering-impl</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-clustering-service</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-clustering-singleton</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-clustering-web-infinispan</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
             <artifactId>jboss-as-connector</artifactId>
         </dependency>
 
@@ -1038,31 +1063,6 @@
                     <groupId>org.jboss.as</groupId>
                     <artifactId>jboss-as-client-all</artifactId>
                     <scope>provided</scope>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-clustering-ejb3-infinispan</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-clustering-impl</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-clustering-service</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-clustering-singleton</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-clustering-web-infinispan</artifactId>
                 </dependency>
 
                 <dependency>
