@@ -1,0 +1,13 @@
+[Unit]
+Description=The JBoss Application Server
+After=network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=forking
+EnvironmentFile=-/etc/sysconfig/jboss-as
+ExecStart=/usr/share/jboss-as/bin/jboss-as-standalone.sh $OPTIONS start
+ExecStop=/usr/share/jboss-as/bin/jboss-as-standalone.sh stop
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
