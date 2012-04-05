@@ -145,6 +145,10 @@
             <maven-resource group="org.hibernate.javax.persistence" artifact="hibernate-jpa-2.0-api"/>
         </module-def>
 
+        <module-def name="jline">
+            <maven-resource group="jline" artifact="jline"/>
+        </module-def>
+
         <module-def name="org.infinispan">
             <maven-resource group="org.infinispan" artifact="infinispan-core"/>
         </module-def>
@@ -297,6 +301,10 @@
 
         <module-def name="org.jboss.ironjacamar.jdbcadapters">
             <maven-resource group="org.jboss.ironjacamar" artifact="ironjacamar-jdbc"/>
+        </module-def>
+
+        <module-def name="org.jboss.as.cli">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-cli"/>
         </module-def>
 
         <module-def name="org.jboss.as.clustering.api">
@@ -719,10 +727,6 @@
             <maven-resource group="org.jboss.spec.javax.xml.ws" artifact="jboss-jaxws-api_2.2_spec"/>
         </module-def>
 
-        <module-def name="jline">
-            <maven-resource group="jline" artifact="jline"/>
-        </module-def>
-
         <module-def name="net.sourceforge.cssparser">
             <maven-resource group="net.sourceforge.cssparser" artifact="cssparser"/>
         </module-def>
@@ -896,10 +900,6 @@
 
         <module-def name="org.jboss.as.console">
             <maven-resource-with-classifier group="org.jboss.as" artifact="jboss-as-console" classifier="resources"/>
-        </module-def>
-
-        <module-def name="org.jboss.as.cli">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-cli"/>
         </module-def>
 
         <module-def name="org.jboss.as.configadmin">

@@ -180,6 +180,11 @@
 
         <dependency>
             <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-cli</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.as</groupId>
             <artifactId>jboss-as-clustering-common</artifactId>
         </dependency>
 
@@ -589,6 +594,11 @@
         </dependency>
 
         <dependency>
+            <groupId>jline</groupId>
+            <artifactId>jline</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
         </dependency>
@@ -742,11 +752,6 @@
                 <dependency>
                     <groupId>jboss.jaxbintros</groupId>
                     <artifactId>jboss-jaxb-intros</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>jline</groupId>
-                    <artifactId>jline</artifactId>
                 </dependency>
 
                 <dependency>
@@ -1062,11 +1067,6 @@
                 <dependency>
                     <groupId>org.jboss.as</groupId>
                     <artifactId>jboss-as-appclient</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.as</groupId>
-                    <artifactId>jboss-as-cli</artifactId>
                 </dependency>
 
                 <dependency>

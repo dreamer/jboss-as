@@ -265,6 +265,7 @@
     <modules>
         <module>build</module>
         <module>build-config</module>
+        <module>cli</module>
         <module>clustering</module>
         <module>connector</module>
         <module>controller</module>
@@ -5921,7 +5922,6 @@
                 <module>build</module>
                 <module>build-config</module>
                 <module>arquillian</module>
-                <module>cli</module>
                 <module>client/ejb</module>
                 <module>client/jms</module>
                 <module>client/shade</module>
